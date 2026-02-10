@@ -1,0 +1,36 @@
+# Prerequisites
+*.d
+*.o
+*.obj
+*.exe
+*.a
+*.dylib
+*.so
+*.dll
+
+# CMake Build Artifacts
+build/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# macOS System Files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE Settings (VS Code, CLion, Xcode)
+.vscode/
+.idea/
+*.xcodeproj/
+*.xcworkspace/
+xcuserdata/
+
+# Python (for your scripts)
+__pycache__/
+*.py[cod]
+
